@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct iw2RunWalk_Watch_AppApp: App {
+    @StateObject private var appState = AppState()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(appState)
         }
     }
 }
