@@ -13,11 +13,14 @@ struct RunWalkController: View {
     var body: some View {
         switch appState.curStatus {
         case .stopped:
-            StartButton()
+//            StartScreen()
+            PausedView()
         case .running:
             RunCountdown()
         case .walking:
             WalkCountdown()
+        case .settings:
+            SetTimes()
         }
     }
 }
@@ -27,3 +30,6 @@ struct RunWalkController_Previews: PreviewProvider {
         RunWalkController().environmentObject(AppState())
     }
 }
+
+
+

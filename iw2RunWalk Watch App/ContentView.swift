@@ -9,10 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            RunWalkController()
+        TabView {
+            RunWalkController().tabItem {
+                Label("Run", systemImage: "airplane.departure")
+            }
+            .tag(1)
+            StartScreen().tabItem {
+                Label("Settings", systemImage: "gear")
+            }
+            .tag(2)
         }
-        .padding()
     }
 }
 

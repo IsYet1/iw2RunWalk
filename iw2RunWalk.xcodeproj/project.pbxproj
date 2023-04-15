@@ -23,6 +23,10 @@
 		A5E1483829E7728300DF7A4F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1483729E7728300DF7A4F /* AppState.swift */; };
 		A5E1483929E7737200DF7A4F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1483729E7728300DF7A4F /* AppState.swift */; };
 		A5E1483B29E8A4C900DF7A4F /* StopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1483A29E8A4C900DF7A4F /* StopButton.swift */; };
+		A5E1483D29E8A88300DF7A4F /* SetTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1483C29E8A88300DF7A4F /* SetTimes.swift */; };
+		A5E1483F29EB5CB200DF7A4F /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1483E29EB5CB200DF7A4F /* StartScreen.swift */; };
+		A5E1484129EB5ED600DF7A4F /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1484029EB5ED600DF7A4F /* SettingsButton.swift */; };
+		A5E1484329EB63EF00DF7A4F /* PausedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E1484229EB63EF00DF7A4F /* PausedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,10 @@
 		A576B62329BE955700C4F47A /* RunCountdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunCountdown.swift; sourceTree = "<group>"; };
 		A5E1483729E7728300DF7A4F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		A5E1483A29E8A4C900DF7A4F /* StopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopButton.swift; sourceTree = "<group>"; };
+		A5E1483C29E8A88300DF7A4F /* SetTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTimes.swift; sourceTree = "<group>"; };
+		A5E1483E29EB5CB200DF7A4F /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		A5E1484029EB5ED600DF7A4F /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		A5E1484229EB63EF00DF7A4F /* PausedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PausedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,16 +134,20 @@
 		A576B60E29BE911400C4F47A /* iw2RunWalk Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				A576B61329BE911500C4F47A /* Assets.xcassets */,
+				A576B61529BE911500C4F47A /* Preview Content */,
 				A576B60F29BE911400C4F47A /* iw2RunWalkApp.swift */,
 				A576B61129BE911400C4F47A /* ContentView.swift */,
 				A576B62129BE926100C4F47A /* StartButton.swift */,
 				A5E1483A29E8A4C900DF7A4F /* StopButton.swift */,
+				A5E1484029EB5ED600DF7A4F /* SettingsButton.swift */,
 				A567D31B29E4C21D00EEE03D /* RunWalkController.swift */,
 				A576B62329BE955700C4F47A /* RunCountdown.swift */,
+				A5E1484229EB63EF00DF7A4F /* PausedView.swift */,
 				A567D31929E4C12C00EEE03D /* WalkCountdown.swift */,
-				A576B61329BE911500C4F47A /* Assets.xcassets */,
-				A576B61529BE911500C4F47A /* Preview Content */,
 				A5E1483729E7728300DF7A4F /* AppState.swift */,
+				A5E1483C29E8A88300DF7A4F /* SetTimes.swift */,
+				A5E1483E29EB5CB200DF7A4F /* StartScreen.swift */,
 			);
 			path = "iw2RunWalk Watch App";
 			sourceTree = "<group>";
@@ -264,9 +276,13 @@
 				A576B62229BE926100C4F47A /* StartButton.swift in Sources */,
 				A576B61229BE911400C4F47A /* ContentView.swift in Sources */,
 				A576B61029BE911400C4F47A /* iw2RunWalkApp.swift in Sources */,
+				A5E1484329EB63EF00DF7A4F /* PausedView.swift in Sources */,
+				A5E1483D29E8A88300DF7A4F /* SetTimes.swift in Sources */,
 				A567D31C29E4C21D00EEE03D /* RunWalkController.swift in Sources */,
 				A5E1483B29E8A4C900DF7A4F /* StopButton.swift in Sources */,
 				A5E1483829E7728300DF7A4F /* AppState.swift in Sources */,
+				A5E1483F29EB5CB200DF7A4F /* StartScreen.swift in Sources */,
+				A5E1484129EB5ED600DF7A4F /* SettingsButton.swift in Sources */,
 				A576B62429BE955700C4F47A /* RunCountdown.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,6 @@ struct StartButton: View {
                 Text("Start Run")
             }
             )
-            Text("Status: \(appState.curStatus.rawValue)")
         }
         .font(.headline)
     }

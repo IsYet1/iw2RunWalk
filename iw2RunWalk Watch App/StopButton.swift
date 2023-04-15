@@ -15,7 +15,7 @@ struct StopButton: View {
                 appState.stopSegments()
             }, label: {
                 Image(systemName: "figure.stand")
-                Text("Stop Run")
+                Text("Stop")
             }
             )
         }
